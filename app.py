@@ -1,9 +1,6 @@
 from flask import Flask,jsonify,request,send_file
 import MySQLdb
-from base64 import b64decode, b64encode
-from email.message import EmailMessage
 import traceback
-import smtplib
 
 app=Flask(__name__)
 imagePath='images/{}'
